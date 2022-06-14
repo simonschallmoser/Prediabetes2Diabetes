@@ -154,7 +154,7 @@ med_to_class = {
 549: [22], #Somatostatin
 586: [22],
 587: [22],
-333: [23],    #Other immunosuppressants
+333: [23], #Immunosuppressants
 36: [23],
 435: [23],
 261: [23],
@@ -163,7 +163,6 @@ med_to_class = {
 499: [23],
 562: [23],
 541: [23],
-
 }
 
 drug_class_to_name = {
@@ -190,7 +189,7 @@ drug_class_to_name = {
 20: 'Systemic corticosteroid',
 21: 'Other corticosteroid',
 22: 'Somatostatin',
-23: 'Other immunosuppressant'
+23: 'Immunosuppressant'
 }
 
 med_to_categories = {'pharmaton':0, #Vitamin/Mineralstoffpraeparate
@@ -229,7 +228,7 @@ med_to_categories = {'pharmaton':0, #Vitamin/Mineralstoffpraeparate
 'alloril':33, #Gout medication
 'alendronate':34,
 'ramitens':35, #ACE-inhibitor
-'enbrel':36, #Other immunosuppressant
+'enbrel':36, #Immunosuppressant
 'remicade':37,
 'folic':38, #Vitamin
 'zanidex':39,
@@ -454,7 +453,7 @@ med_to_categories = {'pharmaton':0, #Vitamin/Mineralstoffpraeparate
 'concor':258,
 'rythmex':259,
 'triderm':260, #Other corticosteroid
-'cellcept':261, #Other immunosuppressant
+'cellcept':261, #Immunosuppressant
 'point':262,
 'cialis':263,
 'solgar':264,
@@ -526,7 +525,7 @@ med_to_categories = {'pharmaton':0, #Vitamin/Mineralstoffpraeparate
 'zyllergy':330,
 'lamogine':331,
 'plaquenil':332,
-'methotrexat':333, #Other immunosuppressant
+'methotrexat':333, #Immunosuppressant
 'keppra':334,
 'bedodeka':335,
 'rispond':336,
@@ -621,14 +620,14 @@ med_to_categories = {'pharmaton':0, #Vitamin/Mineralstoffpraeparate
 'glucosamon':425,
 'cilazapril':426,
 'vasopril':427,
-'methotrexate':428, #Other immunosuppressant
+'methotrexate':428, #Immunosuppressant
 'puri-nethol':429,
 'pentasa':430,
 'lumigan':431,
 'ahiston':432,
 'oscilllcoccinum':433,
 'diseptyl':434,
-'prograf':435, #Other immunosuppressant
+'prograf':435, #Immunosuppressant
 'myfortic':436,
 'propecia':437,
 'halidol':438,
@@ -658,7 +657,7 @@ med_to_categories = {'pharmaton':0, #Vitamin/Mineralstoffpraeparate
 'sterodex':462,
 'profex':463,
 'estelle':464,
-'humira':465, #Other immunosuppressant
+'humira':465, #Immunosuppressant
 'phenobarbital':466,
 'uramox':467,
 'passiflora':468,
@@ -692,7 +691,7 @@ med_to_categories = {'pharmaton':0, #Vitamin/Mineralstoffpraeparate
 'ursofalk':496,
 'migraleve':497,
 'slow-k':498,
-'sandimmun':499, #Other immunosuppressant
+'sandimmun':499, #Immunosuppressant
 'peridor':500,
 'teril':501,
 'foradil':502,
@@ -734,7 +733,7 @@ med_to_categories = {'pharmaton':0, #Vitamin/Mineralstoffpraeparate
 'propyl-thiocil':538,
 'godamed':539,
 'rokal':540,
-'deximune':541, #Other immunosuppressant
+'deximune':541, #Immunosuppressant
 'flucanol':542,
 'dopicar':543,
 'nuvaring':544,
@@ -755,7 +754,7 @@ med_to_categories = {'pharmaton':0, #Vitamin/Mineralstoffpraeparate
 'trileptin':559,
 'magnesium':560,
 'optryl':561,
-'mabthera':562, #Other immunosuppressant
+'mabthera':562, #Immunosuppressant
 'zefix':563,
 'carbosylane':564,
 'tambocor':565,
@@ -801,10 +800,10 @@ med_to_categories = {'pharmaton':0, #Vitamin/Mineralstoffpraeparate
 'diprosone':607, #Other corticosteroid
 'prednisolone':608, #Systemic corticosteroid
 'dicorten':609, #Systemic corticosteroid
-'abitrexate': 610, #Other immunosuppressant
-'rapamune': 611, #Other immunosuppressant
-'cyclophosphamid': 612, #Other immunosuppressant
-'endoxan': 613, #Other immunosuppressant
+'abitrexate': 610, #Immunosuppressant
+'rapamune': 611, #Immunosuppressant
+'cyclophosphamid': 612, #Immunosuppressant
+'endoxan': 613, #Immunosuppressant
                     }
 
 test_name_to_bucket = {
